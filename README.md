@@ -26,6 +26,8 @@ Cette version est volontairement simple pour valider le rendu et le parcours :
 - structure imposée ;
 - preview en direct ;
 - overlay Matterport premium ;
+- vrai menu latéral gauche ;
+- bouton plein écran pour masquer l'interface ;
 - rendu mobile-first ;
 - sauvegarde navigateur ;
 - URL publique locale `/v/[slug]` ;
