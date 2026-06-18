@@ -2,13 +2,40 @@
 
 MVP Next.js pour créer une app web immersive à partir d'un lien Matterport.
 
-## Lancer
+Le client va sur `/studio`, colle son lien Matterport, choisit son secteur, ses couleurs, son logo, ses sections et son CTA. Il publie ensuite une URL `/v/[slug]`.
+
+## Lancer en local
 
 ```bash
 npm install
 npm run dev
 ```
 
-Ouvre ensuite `/studio` pour créer une app, puis publie pour obtenir une URL `/v/[slug]`.
+Puis ouvrir :
 
-Cette première version utilise le navigateur pour sauvegarder les projets. La prochaine étape sera Supabase, auth, Stripe et sous-domaines personnalisés.
+```txt
+http://localhost:3000
+http://localhost:3000/studio
+```
+
+## Version actuelle
+
+Cette version est volontairement simple pour valider le rendu et le parcours :
+
+- builder guidé ;
+- structure imposée ;
+- preview en direct ;
+- overlay Matterport premium ;
+- rendu mobile-first ;
+- sauvegarde navigateur ;
+- URL publique locale `/v/[slug]` ;
+- URL partageable via fragment encodé lorsque le projet n'est pas trop lourd.
+
+## Prochaines étapes
+
+- Supabase pour stocker tous les projets ;
+- auth client ;
+- Stripe ;
+- sous-domaines `client.prodecta.app` ;
+- dashboard analytics ;
+- espace Matterportiste avec multi-projets.
