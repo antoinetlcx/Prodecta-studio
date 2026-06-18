@@ -20,18 +20,17 @@ http://localhost:3000/studio
 
 ## Version actuelle
 
-Cette version est volontairement simple pour valider le rendu et le parcours :
+Cette version reprend la structure des apps immersives Prodecta :
 
-- builder guidé ;
-- structure imposée ;
-- preview en direct ;
-- overlay Matterport premium ;
-- vrai menu latéral gauche ;
-- bouton plein écran pour masquer l'interface ;
-- rendu mobile-first ;
-- sauvegarde navigateur ;
-- URL publique locale `/v/[slug]` ;
-- URL partageable via fragment encodé lorsque le projet n'est pas trop lourd.
+- visite virtuelle en fond ;
+- dock / menu latéral premium ;
+- modules par sections ;
+- topbar immersive ;
+- CTA principal ;
+- actions rapides ;
+- bottom navigation mobile ;
+- mode plein écran qui masque toute l'interface ;
+- publication locale avec URL `/v/[slug]`.
 
 ## Prochaines étapes
 
